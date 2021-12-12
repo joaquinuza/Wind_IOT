@@ -18,8 +18,7 @@ QueueHandle_t SensorQueueS;
 
 //BLE
 #define SERVICE_UUID        BLEUUID((uint16_t)0x181A)   //Enviromental Sensing
-#define CHAR_READ_UUID      BLEUUID((uint16_t)0x2713)   //Acceleration
-
+#define CHAR_READ_UUID      BLEUUID((uint16_t)0x181C)   //user data
 // --------
 // Global variables
 // --------
